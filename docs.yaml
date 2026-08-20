@@ -1,0 +1,33 @@
+$schema: https://api.gitbook.com/openapi.yaml#/components/schemas/GitSyncSiteConfig
+site:
+  title: Argos Documentation
+  structure:
+    - type: section
+      key: section-documentation
+      title: Documentation
+      description: Learn how Argos works and where to start — quickstarts, guides and SDK reference.
+      icon: book-open
+      path: docs
+      default: true
+      children:
+        - type: space
+          key: space-documentation
+          title: Documentation
+          path: docs
+          default: true
+          content:
+            directory: ./docs
+    - type: section
+      key: section-api-reference
+      title: API reference
+      description: Authenticate and make requests to the Argos REST API to automate your visual testing workflow.
+      icon: code
+      path: api-reference
+      children:
+        - type: space
+          key: space-api-reference
+          title: API reference
+          path: api-reference
+          default: true
+          content:
+            directory: ./api-reference
