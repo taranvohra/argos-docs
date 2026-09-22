@@ -7,7 +7,7 @@ icon: book-open
 
 # Introduction
 
-Make sure you read the [Quickstart](../docs/quickstart/README.md) guide!
+Make sure you read the [Quickstart](../docs/quickstart/README.md) guide!!
 
 The Argos API is organized around [REST](https://en.wikipedia.org/wiki/REST). It has predictable, resource-oriented URLs, accepts and returns [JSON](https://www.json.org)-encoded payloads, and uses standard HTTP response codes, authentication, and verbs.
 
