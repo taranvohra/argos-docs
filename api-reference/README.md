@@ -7,6 +7,8 @@ icon: book-open
 
 # Introduction
 
+Make sure you read the [Quickstart](../docs/quickstart/README.md) guide
+
 The Argos API is organized around [REST](https://en.wikipedia.org/wiki/REST). It has predictable, resource-oriented URLs, accepts and returns [JSON](https://www.json.org)-encoded payloads, and uses standard HTTP response codes, authentication, and verbs.
 
 Most of the time you'll interact with Argos through one of the [SDKs](https://argos-ci.com/docs/sdks-reference/playwright) or the [CLI](https://argos-ci.com/docs/sdks-reference/argos-command-line-interface-cli), which call this API for you. You can also call it directly to build your own integrations.
